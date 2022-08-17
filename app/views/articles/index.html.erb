@@ -1,0 +1,6 @@
+<%# XSS vulnerability %>
+<%== params[:xss2] %>
+
+<%= button_to("Hello", "http://www.example.com") %>
+
+<h1>secret</h1>
